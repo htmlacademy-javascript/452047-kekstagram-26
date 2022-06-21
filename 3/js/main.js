@@ -67,9 +67,8 @@ const DESCRIPTIONS = [
 
 // Вернуть случайный элемент массива
 
-const getRandomArrayElement = (elements) => {
-  return elements[getRandomNumber(0, elements.length - 1)];
-};
+const getRandomArrayElement = (elements) =>
+  elements[getRandomNumber(0, elements.length - 1)];
 
 // Функция комментария к фото
 
